@@ -1,9 +1,16 @@
-
+import { SectionWrapper,Features,Download} from "./components";
+import assets from './assets'
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">NFT MARKETPLACE SHOW CASE</h1>
-    </div>
+    <>
+      <SectionWrapper
+        title="Your own store of Nifty NFTs.Start Selling & Growing"
+        description="Buy,store,collect NFTs,exchange & earn crypto. Join 25+ million people using ProNef MarketPlace."
+        showBtn
+        mockupImg={assets.homeHero}
+        banner="banner"
+      />
+    </>
   );
 }
 
