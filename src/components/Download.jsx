@@ -11,7 +11,7 @@ const Download = () => {
             <p className={`${styles.pText} ${styles.blackText}`}>Get the full source code on Github.</p>
           </div>
 
-          <button className={styles.btnPrimary}>Source Code</button>
+          <button className={styles.btnPrimary}> <a href="https://github.com/adnanali000/NFT-MARKETPLACE-REACT-NATIVE-APP.git" target="_blank"> Source Code </a></button>
 
           <div className={styles.flexCenter}>
             <img src={assets.scene} alt="download-png" className={styles.fullImg} />
